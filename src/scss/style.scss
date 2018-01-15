@@ -31,8 +31,29 @@ body {
   }
 }
 
-.info-header{
+.info-header {
   width: 50%;
   margin: auto;
   border-bottom: 1px #ddd solid;
+}
+
+#authors {
+  img {
+    margin-top: -50px;
+  }
+  .fa {
+    font-size: 25px;
+  }
+  .card:hover {
+    background: $primary;
+    color: white;
+
+    .text-muted {
+      color: #e3e3e3 !important;
+    }
+
+    .fa {
+      color: white;
+    }
+  }
 }
